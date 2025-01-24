@@ -81,7 +81,7 @@
         diceContainer.appendChild(canvas);
       });
 
-      if (total >= 11 && total <= 17) {
+      if (total >= 11 && total <= 18) {
         resultText.innerHTML = `Tổng: ${total} (Tài)<br>${choice === 'tai' ? 'Bạn thắng!' : 'Bạn thua!'}`;
       } else {
         resultText.innerHTML = `Tổng: ${total} (Xỉu)<br>${choice === 'xiu' ? 'Bạn thắng!' : 'Bạn thua!'}`;
