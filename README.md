@@ -49,7 +49,7 @@
   <div class="container">
     <h1>Trò chơi Tài Xỉu</h1>
     <p>Đặt cược của bạn:</p>
-    <button onclick="playGame('tai')">Tài (11-17)</button>
+    <button onclick="playGame('tai')">Tài (11-18)</button>
     <button onclick="playGame('xiu')">Xỉu (3-10)</button>
 
     <div class="dice" id="dice"></div>
